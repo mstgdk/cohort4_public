@@ -1,4 +1,4 @@
-package liveClass.week7;
+package liveClass.week7.StringBuildersBuffers;
 
 public class StringBuilders {
     public static void main(String[] args) {
@@ -40,11 +40,14 @@ public class StringBuilders {
         System.out.println(stb4);
 
         //compareTo
-        System.out.println(stb2.compareTo(stb4));
+        /*System.out.println(stb2.compareTo(stb4));
         System.out.println(stb4.compareTo(stb2));
         StringBuilder stb5 = new StringBuilder("java");
         System.out.println("stb4.compareTo(stb5) = " + stb4.compareTo(stb5));
-        System.out.println(stb5.compareTo(stb4));
+        System.out.println(stb5.compareTo(stb4));*/
+        StringBuilder stb10 = new StringBuilder("Java");
+        StringBuilder stb11 = new StringBuilder("AJava");
+        System.out.println(stb10.compareTo(stb11));
 
 
         //
