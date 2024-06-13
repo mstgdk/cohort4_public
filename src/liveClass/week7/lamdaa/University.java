@@ -1,24 +1,20 @@
 package liveClass.week7.lamdaa;
 
 public class University {
-    private String univercity;
+    private String university;
     private String bolum;
     private  int ogrSyisi;
     private int notOrt;
 
-    public University(String univercity, String bolum, int ogrSyisi, int notOrt) {
-        this.univercity = univercity;
+    public University(String university, String bolum, int ogrSyisi, int notOrt) {
+        this.university = university;
         this.bolum = bolum;
         this.ogrSyisi = ogrSyisi;
         this.notOrt = notOrt;
     }
 
-    public String getUnivercity() {
-        return univercity;
-    }
-
-    public void setUnivercity(String univercity) {
-        this.univercity = univercity;
+    public void setUniversity(String university) {
+        this.university = university;
     }
 
     public String getBolum() {
@@ -48,7 +44,7 @@ public class University {
     @Override
     public String toString() {
         return "University{" +
-                "univercity='" + univercity + '\'' +
+                "univercity='" + university + '\'' +
                 ", bolum='" + bolum + '\'' +
                 ", ogrSyisi=" + ogrSyisi +
                 ", notOrt=" + notOrt +
